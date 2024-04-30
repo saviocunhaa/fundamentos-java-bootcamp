@@ -8,7 +8,23 @@ public class Main {
 
         // valores e variaveis
         String meuNome = "Savio";
+        String segundoNome = "Cunha";
         int idade = 28;
         String sexo = "Masculino";
+
+        String nomeCompleto = nomeCompleto(meuNome, segundoNome);
+
+        System.out.println(nomeCompleto);
     }
+
+
+        //metodo
+
+        public static String nomeCompleto (String meuNome, String segundoNome){
+            String nomeCompleto = meuNome+segundoNome;
+            System.out.println(nomeCompleto);
+
+            return meuNome.concat(" ").concat(segundoNome);
+        }
+
 }
