@@ -5,5 +5,10 @@ public class Main {
 
         System.out.println("olá Mundo, Meu nome é Sávio");
 
+
+        // valores e variaveis
+        String meuNome = "Savio";
+        int idade = 28;
+        String sexo = "Masculino";
     }
 }
