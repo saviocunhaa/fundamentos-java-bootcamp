@@ -1,6 +1,7 @@
 import CarrinhoDeCompras.CarrinhoCompras;
 import CatalogoLivros.CatalogoLivros;
 import ListaDeTarefas.ListaTarefas;
+import SomaDeNumeros.SomaNumeros;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -63,7 +64,29 @@ public class Main {
         System.out.println(catalogoLivro.pesquisarPorTitulo("Código Limpo"));
 
 
+        System.out.println("----- SOMA NUMEROS -----");
 
+        SomaNumeros somaNumeros = new SomaNumeros();
+
+        // Adicionando números à lista
+        somaNumeros.adicionarNumero(5);
+        somaNumeros.adicionarNumero(0);
+        somaNumeros.adicionarNumero(0);
+        somaNumeros.adicionarNumero(-2);
+        somaNumeros.adicionarNumero(10);
+
+        // Exibindo a lista de números adicionados
+        System.out.println("Números adicionados:");
+        somaNumeros.exibirNumero();
+
+        // Calculando e exibindo a soma dos números na lista
+        System.out.println("Soma dos números = " + somaNumeros.calcularSoma());
+
+        // Encontrando e exibindo o maior número na lista
+        System.out.println("Maior número = " + somaNumeros.encontrarMaiorNumero());
+
+        // Encontrando e exibindo o menor número na lista
+        System.out.println("Menor número = " + somaNumeros.encontrarMenorNumero());
 
     }
 }

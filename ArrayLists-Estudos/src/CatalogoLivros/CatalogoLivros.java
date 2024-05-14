@@ -10,7 +10,7 @@ import java.util.List;
 public class CatalogoLivros {
     List<Livro> listaLivros = new ArrayList<>();
     Calendar cal = Calendar.getInstance();
-    private int anoAtual = cal.get(Calendar.YEAR);
+
 
     public CatalogoLivros() {
         this.listaLivros = new ArrayList<>();
