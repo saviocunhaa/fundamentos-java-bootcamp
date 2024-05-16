@@ -87,6 +87,5 @@ public class Main {
 
         // Encontrando e exibindo o menor número na lista
         System.out.println("Menor número = " + somaNumeros.encontrarMenorNumero());
-
     }
 }
